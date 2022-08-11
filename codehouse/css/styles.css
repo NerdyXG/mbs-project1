@@ -16,6 +16,9 @@ body {
     background: #dff2ff;
 }
 
+
+/* login section */
+
 .login-card {
     background: var(--blue);
     color: var(--white);
@@ -93,14 +96,54 @@ main .text-container {
     background: #fff;
 }
 
+
+/* footer section */
+
+.footer {
+    background: #000;
+    padding: 50px;
+    color: #fff;
+}
+
+.footer-element-section {
+    margin-bottom: 50px;
+}
+
+h3.footer-heading {
+    padding-bottom: 10px;
+}
+
+h3.footer-heading::after {
+    content: "";
+    width: 5rem;
+    height: 2px;
+    margin-top: auto;
+    display: block;
+    background: #fff;
+}
+
+.footer-list a {
+    background: #000 !important;
+    border: 0 !important;
+    color: var(--white);
+    margin: 10px 0;
+    padding: 0;
+}
+
 @media (max-width: 992px) {
     /* navlinks */
     /* padding the navlinks  */
+    .login-btn {
+        margin: 0;
+    }
     .navbar-toggler {
-        margin-left: 10px !important;
+        margin: 10px 0 10px 50px !important;
+    }
+    .navbar ul {
+        margin-left: 0;
     }
     .navbar ul li {
-        padding-left: 10px;
+        padding-left: 50px;
     }
     .navbar ul li:hover::after {
         content: "";
