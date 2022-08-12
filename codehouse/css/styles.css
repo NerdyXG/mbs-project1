@@ -163,7 +163,7 @@ h3.footer-heading::after {
         margin-left: 0;
     }
     .navbar ul li {
-        padding-left: 50px;
+        padding-left: 20px;
     }
     .navbar ul li:hover::after {
         content: "";
